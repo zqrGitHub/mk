@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+<!-- 单行文本框  -->
+  <p>
+    <input type="text" value="1233" placeholder="请输入" disabled>
+  </p>
+<!-- 单选按钮 -->
+  <p>
+    <input type="radio" name="sex" value="man">男
+    <input type="radio" name="sex" value="woman">女
+  </p>
+<!-- 单机文字也视作点击单选按钮 -->
+  <p>
+    <label>
+      <input type="radio" name="sex" value="man" checked>男
+    </label>
+    <label>
+      <input type="radio" name="sex" value="woman">女
+    </label>
+  </p>
+<!-- 复选框 -->
+  <p>
+    <label>
+      <input type="checkbox" name="hobby" value="1">足球
+    </label>
+    <label>
+      <input type="checkbox" name="hobby" value="2">篮球
+    </label>
+    <input type="checkbox" name="hobby" value="3">排球
+  </p>
+<!--  密码框 -->
+  <p>
+    请输入密码:<input type="password">
+  </p>
+<!--  下拉菜单-->
+  <p>
+    <select name="city">
+      <option value="beijing">北京</option>
+      <option value="shanghai">上海</option>
+      <option value="guangzhou">广州</option>
+    </select>
+  </p>
+<!-- 多行文本框 -->
+  <p>
+    留言:
+    <textarea name="" id="" cols="100" rows="10">
+
+    </textarea>
+  </p>
+<!-- 三种按钮 -->
+  <input type="button" value="普通按钮">
+  <input type="submit" value="提交按钮">
+  <input type="reset" value="重置按钮">
+</form>
+</body>
+</html>
